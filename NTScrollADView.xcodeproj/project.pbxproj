@@ -19,7 +19,6 @@
 		E0D513D317605E78003DE646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D513D217605E78003DE646 /* ViewController.m */; };
 		E0D513D617605E78003DE646 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D513D417605E78003DE646 /* ViewController.xib */; };
 		E0D513DE17605E92003DE646 /* NTScrollADView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D513DD17605E92003DE646 /* NTScrollADView.m */; };
-		E0D513E01760641B003DE646 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D513DF1760641B003DE646 /* Reveal.framework */; };
 		E0D513E217606D73003DE646 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D513E117606D73003DE646 /* QuartzCore.framework */; };
 		E0D513FE17609519003DE646 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D513EB17609519003DE646 /* MKAnnotationView+WebCache.m */; };
 		E0D513FF17609519003DE646 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D513ED17609519003DE646 /* SDImageCache.m */; };
@@ -52,7 +51,6 @@
 		E0D513D517605E78003DE646 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		E0D513DC17605E92003DE646 /* NTScrollADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTScrollADView.h; sourceTree = "<group>"; };
 		E0D513DD17605E92003DE646 /* NTScrollADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTScrollADView.m; sourceTree = "<group>"; };
-		E0D513DF1760641B003DE646 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		E0D513E117606D73003DE646 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E0D513EA17609519003DE646 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		E0D513EB17609519003DE646 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 				E0D513BA17605E78003DE646 /* UIKit.framework in Frameworks */,
 				E0D513BC17605E78003DE646 /* Foundation.framework in Frameworks */,
 				E0D513BE17605E78003DE646 /* CoreGraphics.framework in Frameworks */,
-				E0D513E01760641B003DE646 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +100,6 @@
 				E0DFB4371760EAFF0063B684 /* MapKit.framework */,
 				E0D513E917609519003DE646 /* SDWebImage */,
 				E0D513E117606D73003DE646 /* QuartzCore.framework */,
-				E0D513DF1760641B003DE646 /* Reveal.framework */,
 				E0D513BF17605E78003DE646 /* NTScrollADView */,
 				E0D513B817605E78003DE646 /* Frameworks */,
 				E0D513B717605E78003DE646 /* Products */,
