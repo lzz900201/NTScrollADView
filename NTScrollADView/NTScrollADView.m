@@ -37,6 +37,7 @@
         [self addSubview:_scrollView];
         [_scrollView release];
         
+//        测试修改
         _titleView = [[UIView alloc] initWithFrame:CGRectMake(0, self.frame.size.height - 31, self.bounds.size.width, 31)];
         _titleView.backgroundColor = [UIColor blackColor];
         _titleView.alpha = 0.5;
