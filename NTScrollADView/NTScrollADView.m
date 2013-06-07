@@ -28,6 +28,8 @@
         self.layer.shadowOffset = CGSizeMake(0, 2);
         self.layer.shadowOpacity = 0.5;
         
+//        随便修改
+        
         _scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
         _scrollView.backgroundColor = [UIColor clearColor];
         _scrollView.pagingEnabled = YES;
