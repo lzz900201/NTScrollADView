@@ -96,10 +96,7 @@
 		E0D513AD17605E78003DE646 = {
 			isa = PBXGroup;
 			children = (
-				E0DFB4391760EB060063B684 /* ImageIO.framework */,
-				E0DFB4371760EAFF0063B684 /* MapKit.framework */,
 				E0D513E917609519003DE646 /* SDWebImage */,
-				E0D513E117606D73003DE646 /* QuartzCore.framework */,
 				E0D513BF17605E78003DE646 /* NTScrollADView */,
 				E0D513B817605E78003DE646 /* Frameworks */,
 				E0D513B717605E78003DE646 /* Products */,
@@ -117,6 +114,9 @@
 		E0D513B817605E78003DE646 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0DFB4391760EB060063B684 /* ImageIO.framework */,
+				E0DFB4371760EAFF0063B684 /* MapKit.framework */,
+				E0D513E117606D73003DE646 /* QuartzCore.framework */,
 				E0D513B917605E78003DE646 /* UIKit.framework */,
 				E0D513BB17605E78003DE646 /* Foundation.framework */,
 				E0D513BD17605E78003DE646 /* CoreGraphics.framework */,
