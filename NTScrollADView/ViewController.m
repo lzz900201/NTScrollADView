@@ -28,10 +28,10 @@
 
 - (NSArray *)itemImagesInNTScrollADView:(NTScrollADView *)scrollADView
 {
-//    UIImage *iamge1 = [UIImage imageNamed:@"1.jpg"];
+    UIImage *iamge1 = [UIImage imageNamed:@"1.jpg"];
     UIImage *image2 = [UIImage imageNamed:@"2.jpg"];
     UIImage *image3 = [UIImage imageNamed:@"3.jpg"];
-    NSArray *arr = [[NSArray alloc] initWithObjects:@"http://ww1.sinaimg.cn/bmiddle/b0b68d1ajw1e5eduidtf3j20c30a0dg5.jpg",image3,image2, nil];
+    NSArray *arr = [[NSArray alloc] initWithObjects:@"http://ww1.sinaimg.cn/bmiddle/b0b68d1ajw1e5eduidtf3j20c30a0dg5.jpg",@"http://ww4.sinaimg.cn/mw600/8c5f3703jw1e5ei5gocg1j20dc09tjsi.jpg",@"http://ww3.sinaimg.cn/mw600/65bb73e0jw1e5eqc4tyb1j21hc0u0wp9.jpg", nil/*iamge1,image2,image3,nil*/];
 
     return arr;
 }
