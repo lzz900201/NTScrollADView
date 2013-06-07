@@ -18,7 +18,6 @@
 {
     [super viewDidLoad];
 
-//    _scrollADView = [[NTScrollADView alloc] initWithItems:[NSArray arrayWithObjects:@"nihao",@"wohao",@"dajiahao", nil]];
     _scrollADView = [[NTScrollADView alloc] initWithFrame:CGRectMake(0, 20, 320, 137)];
     _scrollADView.bounces = NO;
     _scrollADView.dataSource = self;

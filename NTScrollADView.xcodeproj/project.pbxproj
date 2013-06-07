@@ -32,6 +32,8 @@
 		E0D5140317609519003DE646 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D513F917609519003DE646 /* SDWebImagePrefetcher.m */; };
 		E0D5140417609519003DE646 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D513FB17609519003DE646 /* UIButton+WebCache.m */; };
 		E0D5140517609519003DE646 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D513FD17609519003DE646 /* UIImageView+WebCache.m */; };
+		E0DFB4381760EAFF0063B684 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DFB4371760EAFF0063B684 /* MapKit.framework */; };
+		E0DFB43A1760EB060063B684 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DFB4391760EB060063B684 /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		E0D513FB17609519003DE646 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
 		E0D513FC17609519003DE646 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		E0D513FD17609519003DE646 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		E0DFB4371760EAFF0063B684 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E0DFB4391760EB060063B684 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0DFB43A1760EB060063B684 /* ImageIO.framework in Frameworks */,
+				E0DFB4381760EAFF0063B684 /* MapKit.framework in Frameworks */,
 				E0D513E217606D73003DE646 /* QuartzCore.framework in Frameworks */,
 				E0D513BA17605E78003DE646 /* UIKit.framework in Frameworks */,
 				E0D513BC17605E78003DE646 /* Foundation.framework in Frameworks */,
@@ -99,6 +105,8 @@
 		E0D513AD17605E78003DE646 = {
 			isa = PBXGroup;
 			children = (
+				E0DFB4391760EB060063B684 /* ImageIO.framework */,
+				E0DFB4371760EAFF0063B684 /* MapKit.framework */,
 				E0D513E917609519003DE646 /* SDWebImage */,
 				E0D513E117606D73003DE646 /* QuartzCore.framework */,
 				E0D513DF1760641B003DE646 /* Reveal.framework */,
@@ -394,6 +402,7 @@
 				E0D513DB17605E78003DE646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
